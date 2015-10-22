@@ -1,0 +1,14 @@
+{
+  "name": "vibrant-bin",
+  "version": "0.0.1",
+  "description": "vibrant.js as a command-line tool",
+  "main": "src/vibrant-bin.js",
+  "bin": {
+    "vibrant": "./src/vibrant-bin.js"
+  },
+  "dependencies": {
+    "node-vibrant": "^1.2.0",
+    "rgb-hex": "^1.0.0",
+    "yargs": "^3.29.0"
+  }
+}
